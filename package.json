@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Media streaming server assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trestero/streaming-media-assignment.git"
+  },
+  "author": "Tom Slavin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Trestero/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Trestero/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0"
+  }
+}
